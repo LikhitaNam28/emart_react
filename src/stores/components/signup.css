@@ -1,0 +1,65 @@
+/* Container styling */
+.fo {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* General styling for form labels */
+.la {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* General styling for form fields */
+.in{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Styling for the submit button */
+.but {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #7abaff;
+}
+
+/* Error message styling */
+div > .error {
+  color: #ff0000;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* Heading styling */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form field focus styling */
+input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
